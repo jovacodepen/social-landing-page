@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  font-family: "Spartan", sans-serif;
+  background-image: url("/dist/img/bg-pattern-top-desktop.svg"), url("/dist/img/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  font-size: 15px;
+  letter-spacing: -0.23px;
+}
+
+@media screen and (max-width: 850px) {
+  html,
+  body {
+    text-align: center;
+    background-image: url("/dist/img/bg-pattern-top-mobile.svg"), url("/dist/img/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+  }
+}
+
+main {
+  min-height: 100%;
+  min-width: 100%;
+  padding: 50px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #502050;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  color: #927b91;
+  margin: 0;
+}
+
+.header-bold {
+  color: #502050;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.grid-container {
+  padding: 20px 80px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 850px) {
+  .grid-container {
+    padding: 0px 24px;
+  }
+}
+
+#reviews .reviews-header {
+  letter-spacing: -1.71px;
+  line-height: 48px;
+  font-size: 48px;
+}
+
+#reviews .reviews-body {
+  padding-top: 20px;
+  letter-spacing: -0.5px;
+}
+
+#reviews .rating-wrapper .rating-box {
+  border-radius: 10px;
+  background-color: #f7f2f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 18px 0px 0px 0px;
+  padding: 20px;
+  text-align: left;
+  font-size: 15px;
+  width: 80%;
+}
+
+@media screen and (max-width: 850px) {
+  #reviews .rating-wrapper .rating-box {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+#reviews .rating-wrapper .rating-box .star-group {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  #reviews .rating-wrapper .rating-box .star-group {
+    width: 100%;
+    margin-right: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 5px;
+  }
+}
+
+#reviews .rating-wrapper .rating-box .star-group li {
+  margin: 0px 4px;
+}
+
+#reviews .rating-wrapper #guru {
+  position: relative;
+  right: -50px;
+}
+
+@media screen and (max-width: 850px) {
+  #reviews .rating-wrapper #guru {
+    right: 0px;
+  }
+}
+
+#reviews .rating-wrapper #tech {
+  position: relative;
+  right: -100px;
+}
+
+@media screen and (max-width: 850px) {
+  #reviews .rating-wrapper #tech {
+    right: 0px;
+  }
+}
+
+#testimonials {
+  margin-top: 40px;
+}
+
+#testimonials .testimonial-wrapper {
+  height: auto;
+  background-color: #502050;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+@media screen and (max-width: 850px) {
+  #testimonials .testimonial-wrapper {
+    padding: 40px 25px;
+  }
+}
+
+#testimonials .testimonial-wrapper .profile-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#testimonials .testimonial-wrapper .profile-img img {
+  border-radius: 100px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+#testimonials .testimonial-wrapper .profile-name {
+  color: white !important;
+}
+
+#testimonials .testimonial-wrapper .profile-buyer {
+  color: #EE69A4;
+  font-weight: 400;
+}
+
+#testimonials .testimonial-wrapper .profile-copy {
+  color: white !important;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 850px) {
+  #testimonials .testimonial-wrapper .profile-copy {
+    text-align: left;
+  }
+}
+
+#testimonials #irene {
+  margin-top: 20px;
+}
+
+#testimonials #anne {
+  margin-top: 40px;
+}
